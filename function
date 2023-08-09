@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int AP(int n){  //program to create AP
+    int lastTerm;
+    lastTerm=(3*n+7);
+    cout<<"your last term is"<<' '<<lastTerm<<' '<<endl;
+}
+
+int main(){
+    
+    int number;
+    cout<<"enter number;"<<endl;
+    cin>>number;
+    AP(number);
+    
+}
