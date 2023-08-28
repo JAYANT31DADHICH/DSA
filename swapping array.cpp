@@ -5,7 +5,7 @@ void reverse(int array[],int size){
 	int start=0;
 	int end=size-1;
 
-		while(start<end){
+		while(start<=end){
 		swap(array[start],array[end]);
 		start++;
 		end--;
