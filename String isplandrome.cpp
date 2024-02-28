@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cstring>
+#include<cstring> //using this we can directly count the length ,no need of getlength function
 using namespace std;
 
 // int getLength(char nam[20]){
@@ -25,7 +25,7 @@ int main(){
     char name[100];
     cin>> name;
     int n=strlen(name);
-    int result=ispalindrome(name,n);
+    int result=ispalindrome(name,n);// always we have to give name and n inside the bracket
     cout<<result<<endl;
     return 0;
 }
