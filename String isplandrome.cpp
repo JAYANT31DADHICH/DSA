@@ -29,3 +29,32 @@ int main(){
     cout<<result<<endl;
     return 0;
 }
+
+
+
+// #include <iostream>
+// #include <cstring> // For strlen
+
+// using namespace std;
+
+// bool ispalindrome(char a[], int n) {
+//     int s = 0;
+//     int e = n - 1;
+//     while (s < e) {
+//         if (a[s] != a[e]) {
+//             return false;
+//         }
+//         s++;
+//         e--;
+//     }
+//     return true;
+// }
+
+// int main() {
+//     char name[20];
+//     cin >> name;
+//     int length = strlen(name); // Determine the length of the input string
+//     cout << (ispalindrome(name, length) ? "Palindrome" : "Not Palindrome") << endl;
+//     return 0;
+// }
+
