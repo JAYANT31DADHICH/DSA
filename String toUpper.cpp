@@ -20,9 +20,12 @@ bool ispalindrome(char a[],int n){
             return 0;
         }
         else{
-            return 1;
+            s++;
+            e--;
+        
         }
     }
+    return 1;
 }
 int main() {
     // Write C++ code here
