@@ -1,3 +1,4 @@
+//sieve of eratosthenes   time complexity : o(n log(log n))
 class Solution {
 public:
     int countPrimes(int n) {
